@@ -1,0 +1,59 @@
+$twitter-height: 20px;
+$icon-height: 52px;
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    border-top: $border;
+    height: $footer-height;
+    line-height: $footer-height;
+}
+
+.footer-social {
+    float: right;
+    li {
+        float: left;
+        margin-left: 1.5rem;
+        @include font-size(33);
+        &:first-child {
+            margin-left: 0;
+        }
+        a {
+            i {
+                color: lighten($color-light, 16);
+                @include transition ($transition);
+            }
+            &.twitter:hover i {
+                color: #00b6f1;
+            }
+            &.linkedin:hover i {
+                color: #0977b5;
+            }
+            &.github:hover i {
+                color: #171516;
+            }
+            &.instagram:hover i {
+                color: #0058a4;
+            }
+        }
+    }
+}
+
+.footer-legal {
+    float: left;
+    @include middle();
+}
+
+.footer-twitter {
+    margin-bottom: 0.5rem;
+    height: $twitter-height;
+    line-height: $twitter-height;
+}
+
+.footer-copyright {
+    line-height: 1.5;
+    color: $color-light;
+    letter-spacing: 0.5px;
+    @include font-size(12);
+}

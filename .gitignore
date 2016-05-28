@@ -1,0 +1,6 @@
+.idea
+.viminfo
+.vagrant
+.DS_Store
+style.css.map
+src/node_modules/

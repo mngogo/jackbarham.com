@@ -1,0 +1,32 @@
+body, input, select, textarea, button {
+    @include font-regular();
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    line-height: 1.8;
+    color: $color-text;
+}
+
+a, a:visited {
+    text-decoration: none;
+    @include transition ($transition);
+    color: $color-anchor;
+    &:hover {
+        //
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: $color-header;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,26 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.layout-wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+.layout-content {
+    padding-bottom: $footer-height;
+}
+
+.layout-inner {
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
