@@ -16,6 +16,7 @@ html {
 }
 
 .layout-content {
+    padding-top: 3rem;
     padding-bottom: $footer-height;
 }
 
@@ -23,4 +24,25 @@ html {
     max-width: 1280px;
     padding: 0 40px;
     margin: 0 auto;
+}
+
+.layout-header {
+    border-top: $border;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 46px;
+        h2 {
+            font-size: 16px;
+            color: $color-light;
+            font-weight: normal;
+            margin: 0;
+            padding: 0 25px 0 28px;
+            top: -14px;
+            position: relative;
+            background: white;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
 }

@@ -43,3 +43,4 @@
         </header>
 
         <div class="layout-content">
+            <div class="layout-inner">

@@ -1,0 +1,11 @@
+.grid-3 {
+    position: relative;
+    width: calc(100% + 2px);
+    left: -3px;
+    li {
+        float: left;
+        overflow: hidden;
+        width: 33.33333333333333%;
+        padding: 0 0 1px 1px;
+    }
+}
