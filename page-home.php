@@ -8,7 +8,11 @@
 
 ?>
 
-    <section id="featuredWork">
+    <section class="hero">
+        <h1 class="hero-title">Digitial product <br/>designer &amp; developer</h1>
+    </section>
+
+    <section id="featured-work">
 
         <header class="layout-header">
             <h2><?php the_field('portfolio_feed'); ?></h2>
@@ -19,7 +23,7 @@
                 <?php foreach($posts as $post): $count++ ?>
                     <?php setup_postdata($post); ?>
 
-                    <li class=" <?php echo $count; ?> block-item">
+                    <li class="<?php echo $count; ?> block-item">
                         <a href="<?php the_permalink(); ?>" class="fade touchHover">
                             <img src="<?php the_field('portfolio_thumbnail'); ?>" alt="<?php the_title(); ?>" class="pImg fade">
                             <span class="block-background">

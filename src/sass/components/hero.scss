@@ -1,0 +1,10 @@
+.hero {
+    padding: 3rem 0 6rem 0;
+}
+
+.hero-title {
+    @include font-size(60);
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.3;
+}
