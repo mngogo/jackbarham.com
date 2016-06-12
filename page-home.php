@@ -8,16 +8,14 @@
 
 ?>
 
-    <section class="hero">
+    <section class="hero layout-section">
         <h1 class="hero-title">Digitial product <br/>designer &amp; developer</h1>
     </section>
 
-    <section id="featured-work">
-
+    <section class="featured layout-section">
         <header class="layout-header">
-            <h2><?php the_field('portfolio_feed'); ?></h2>
-        </header><!-- sectionHeader -->
-
+            <h2>Featured work</h2>
+        </header>
         <?php $posts = get_field('featured_items'); $count = "featured0"; if ($posts): ?>
             <ul class="grid-3 cf">
                 <?php foreach($posts as $post): $count++ ?>
@@ -38,7 +36,16 @@
                 <?php endforeach; ?>
             </ul>
             <?php wp_reset_postdata(); endif; ?>
+    </section><!-- featured -->
 
-    </section><!-- featuredWork -->
+    <div class="feed layout-section">
+        <header class="layout-header">
+            <h2>Activity feed</h2>
+        </header><!-- sectionHeader -->
+        <?php $pageID = get_the_ID(); $loop = new WP_Query( array( 'post_type' => 'articles', 'posts_per_page' => 3 ) ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <?php get_template_part('loop','article'); ?>
+        <?php endwhile; wp_reset_postdata(); ?>
+    </div><!-- feed -->
 
 <?php get_footer(); ?>

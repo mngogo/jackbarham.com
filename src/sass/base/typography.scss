@@ -1,9 +1,10 @@
 body, input, select, textarea, button {
     @include font-regular();
+    @include font-size(19);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    line-height: 1.8;
+    line-height: 1.6;
     color: $color-text;
 }
 

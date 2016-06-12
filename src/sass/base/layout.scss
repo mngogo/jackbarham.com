@@ -11,13 +11,17 @@ html {
 }
 
 .layout-wrapper {
-    min-height:100%;
-    position:relative;
+    min-height: 100%;
+    position: relative;
 }
 
 .layout-content {
     padding-top: 3rem;
-    padding-bottom: $footer-height;
+    padding-bottom: calc(3rem + 100px);
+}
+
+.layout-section {
+    margin-bottom: 6rem;
 }
 
 .layout-inner {

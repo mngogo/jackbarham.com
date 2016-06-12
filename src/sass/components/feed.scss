@@ -1,0 +1,39 @@
+.feed {
+    max-width: 860px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.feed-item {
+    margin-bottom: 3rem;
+}
+
+.feed-title {
+    @include font-size(35);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+    a {
+        color: $color-header;
+    }
+}
+
+.feed-meta {
+    @include font-size(16);
+    color: $color-light;
+    li {
+        float: left;
+        margin-right: 13px;
+        border-right: 1px solid #ededed;
+        padding-right: 13px;
+        line-height: 15px;
+        list-style-type: none;
+        &:last-child {
+            margin-right: 0;
+            border-right: none;
+            padding-right: 0;
+        }
+        a {
+            color: $color-light;
+        }
+    }
+}

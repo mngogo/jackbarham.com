@@ -32,11 +32,11 @@
                 <h1 class="header-logo">Jack Barham</h1>
                 <nav class="nav">
                     <ul class="nav-list cf">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Articles</a></li>
-                        <li><a href="">Playground</a></li>
+                        <li><a href="<?php echo site_url(''); ?>">Home</a></li>
+                        <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
+                        <li><a href="<?php echo site_url('/portfolio'); ?>">Portfolio</a></li>
+                        <li><a href="<?php echo site_url('/articles'); ?>">Articles</a></li>
+                        <li><a href="<?php echo site_url('/playground'); ?>">Playground</a></li>
                     </ul>
                 </nav>
             </div>
