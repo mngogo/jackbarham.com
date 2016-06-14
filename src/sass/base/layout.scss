@@ -16,18 +16,24 @@ html {
 }
 
 .layout-content {
-    padding-top: 3rem;
+    padding-top: 6rem;
     padding-bottom: calc(3rem + 100px);
+}
+
+.layout-wide {
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.layout-copy {
+    max-width: 860px;
+    padding: 0 40px;
+    margin: 0 auto;
 }
 
 .layout-section {
     margin-bottom: 6rem;
-}
-
-.layout-inner {
-    max-width: 1280px;
-    padding: 0 40px;
-    margin: 0 auto;
 }
 
 .layout-header {

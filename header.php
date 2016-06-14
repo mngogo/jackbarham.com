@@ -28,7 +28,7 @@
     <div class="layout-wrapper">
 
         <header class="header">
-            <div class="layout-inner cf">
+            <div class="layout-wide cf">
                 <h1 class="header-logo">Jack Barham</h1>
                 <nav class="nav">
                     <ul class="nav-list cf">
@@ -43,4 +43,3 @@
         </header>
 
         <div class="layout-content">
-            <div class="layout-inner">

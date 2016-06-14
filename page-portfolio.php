@@ -8,19 +8,15 @@
 	
 ?>
 			
-        <div class="contentWrap cf innerWrap">
-        	
-        	<header class="sectionHeader">
-		        	<h2>Portfolio</h2>
-	        	</header><!-- sectionHeader -->
+        <section class="layout-section layout-wide">
         
-			<ul id="imgGrid3">
+			<ul class="grid-3 cf">
 				<?php $pageID = get_the_ID(); $loop = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => -1 ) ); ?>
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 				<?php get_template_part('loop','portfolio'); ?>
 				<?php endwhile; wp_reset_postdata(); ?>
 			</ul>
         		        
-        </div><!-- contentWrap -->
+        </section><!-- contentWrap -->
 
 <?php get_footer(); ?>
