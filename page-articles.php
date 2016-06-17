@@ -1,11 +1,6 @@
 <?php
-
-	/*
-	Template Name: Articles
-	*/
-
-	get_header();
-
+	/* Template Name: Articles */
+	get_header(); 
 ?>
 
         <section class="layout-section layout-copy">

@@ -1,11 +1,6 @@
 <?php
-
-	/*
-	Template Name: Home
-	*/
-
-	get_header();
-
+	/* Template Name: Home */
+	get_header(); 
 ?>
 
     <section class="layout-section">

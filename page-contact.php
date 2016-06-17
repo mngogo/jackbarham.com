@@ -1,11 +1,6 @@
-<?php 
-	
-	/*
-	Template Name: Contact
-	*/
-	
+<?php
+	/* Template Name: Contact */
 	get_header(); 
-	
 ?>
 			
         <div class="contentWrap cf blogWrap">

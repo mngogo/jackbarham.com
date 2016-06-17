@@ -1,11 +1,6 @@
 <?php
-
-	/*
-	Template Name: Activity
-	*/
-
-	get_header();
-
+    /* Template Name: Activity */
+    get_header();
 ?>
 
         <div class="contentWrap cf blogWrap">

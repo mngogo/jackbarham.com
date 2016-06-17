@@ -1,11 +1,6 @@
 <?php 
-	
-	/*
-	Template Name: Portfolio
-	*/
-	
-	get_header(); 
-	
+    /* Template Name: Portfolio */
+	get_header();
 ?>
 			
         <section class="layout-section layout-wide">
