@@ -28,7 +28,7 @@
 
         <header class="header">
             <div class="layout-wide cf">
-                <h1 class="header-logo">Jack Barham</h1>
+                <h1 class="header-logo"><a href="<?php echo site_url(''); ?>">Jack Barham</a></h1>
                 <nav class="nav">
                     <ul class="nav-list cf">
                         <li><a href="<?php echo site_url('/about'); ?>">About</a></li>

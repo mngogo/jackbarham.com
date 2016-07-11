@@ -9,4 +9,10 @@ $header-height: 72px;
 .header-logo {
     float: left;
     line-height: $header-height;
+    a {
+        color: $color-header;
+        &:hover{
+            color: $color-anchor;
+        }
+    }
 }

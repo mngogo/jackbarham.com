@@ -1,0 +1,49 @@
+.portfolio {
+    //
+}
+
+.portfolio-showcase {
+    float: left;
+    width: 54.166666666667%;
+}
+
+.portfolio-images li {
+    margin-bottom: 1rem;
+}
+
+.portfolio-copy {
+    float: right;
+    width: 41.666666666667%;
+}
+
+.portfolio-title {
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-meta {
+    color: $color-mid;
+    @include font-size(15);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    span {
+        color: $color-text;
+    }
+}
+
+.portfolio-description {
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-nav {
+    margin-bottom: 1.5rem;
+    li {
+        display: inline-block;
+        margin-right: 1.5rem;
+        a {
+            color: $color-light;
+            &:hover {
+                color: $color-anchor-solid;
+            }
+        }
+    }
+}

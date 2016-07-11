@@ -597,6 +597,22 @@ html {
   padding: 0 1rem;
   color: #313131; }
 
+a.button {
+  padding: 0 50px 0 30px;
+  background: #6090C1;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  height: 48px;
+  line-height: 52px;
+  letter-spacing: 0.5px; }
+  a.button i {
+    font-size: 29px;
+    font-size: 1.8125rem;
+    position: absolute;
+    top: 10px;
+    right: 20px; }
+
 .feed-item {
   margin-bottom: 3rem; }
 
@@ -699,6 +715,10 @@ h2.feed-title {
 .header-logo {
   float: left;
   line-height: 72px; }
+  .header-logo a {
+    color: #191919; }
+    .header-logo a:hover {
+      color: #2D78C3; }
 
 .hero {
   padding: 3rem 0 0 0; }
@@ -725,5 +745,41 @@ h2.feed-title {
     color: #191919; }
     .nav-list li a:hover {
       color: #2D78C3; }
+
+.portfolio-showcase {
+  float: left;
+  width: 54.166666666667%; }
+
+.portfolio-images li {
+  margin-bottom: 1rem; }
+
+.portfolio-copy {
+  float: right;
+  width: 41.666666666667%; }
+
+.portfolio-title {
+  margin-bottom: 1.5rem; }
+
+.portfolio-meta {
+  color: #808080;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8; }
+  .portfolio-meta span {
+    color: #313131; }
+
+.portfolio-description {
+  margin-bottom: 1.5rem; }
+
+.portfolio-nav {
+  margin-bottom: 1.5rem; }
+  .portfolio-nav li {
+    display: inline-block;
+    margin-right: 1.5rem; }
+    .portfolio-nav li a {
+      color: #AFAFAE; }
+      .portfolio-nav li a:hover {
+        color: #6090C1; }
 
 /*# sourceMappingURL=style.css.map */
