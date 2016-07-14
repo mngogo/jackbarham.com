@@ -17,13 +17,13 @@
 }
 
 .portfolio-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .portfolio-meta {
     color: $color-mid;
     @include font-size(15);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     line-height: 1.8;
     span {
         color: $color-text;
@@ -31,19 +31,5 @@
 }
 
 .portfolio-description {
-    margin-bottom: 1.5rem;
-}
-
-.portfolio-nav {
-    margin-bottom: 1.5rem;
-    li {
-        display: inline-block;
-        margin-right: 1.5rem;
-        a {
-            color: $color-light;
-            &:hover {
-                color: $color-anchor-solid;
-            }
-        }
-    }
+    margin-bottom: 2rem;
 }
