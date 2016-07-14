@@ -372,6 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: 1.2;
+  letter-spacing: 0.5px;
   color: #191919; }
 
 h1 {
@@ -771,5 +772,15 @@ h2.feed-title {
 
 .portfolio-description {
   margin-bottom: 2rem; }
+
+.title-medium {
+  font-size: 27px;
+  font-size: 1.6875rem;
+  margin-bottom: 0.5rem; }
+
+.title-medium a {
+  color: #191919; }
+  .title-medium a:hover {
+    color: #2D78C3; }
 
 /*# sourceMappingURL=style.css.map */

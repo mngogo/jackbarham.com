@@ -1,0 +1,11 @@
+.title-medium {
+    @include font-size(27);
+    margin-bottom: 0.5rem;
+}
+
+.title-medium a {
+    color: $color-header;
+    &:hover {
+        color: $color-anchor;
+    }
+}

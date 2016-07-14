@@ -1,6 +1,6 @@
 <?php
 	/* Template Name: Home */
-	get_header(); 
+	get_header();
 ?>
 
     <section class="layout-section">
@@ -36,9 +36,9 @@
         <header class="layout-header">
             <h2>Activity feed</h2>
         </header><!-- sectionHeader -->
-        <?php $pageID = get_the_ID(); $loop = new WP_Query( array( 'post_type' => 'articles', 'posts_per_page' => 3 ) ); ?>
-        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <?php get_template_part('loop','article'); ?>
+        <?php $pageID = get_the_ID(); $loop = new WP_Query( array( 'post_type' => 'activity', 'posts_per_page' => 5 ) ); ?>
+        <?php while ($loop->have_posts() ) : $loop->the_post(); ?>
+            <?php get_template_part('loop', 'activity'); ?>
         <?php endwhile; wp_reset_postdata(); ?>
     </section>
 
