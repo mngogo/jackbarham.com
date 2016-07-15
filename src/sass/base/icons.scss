@@ -1,16 +1,15 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('/fonts/icomoon.eot?plwv0n');
-    src: url('/fonts/icomoon.eot?plwv0n#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?plwv0n') format('truetype'),
-    url('/fonts/icomoon.woff?plwv0n') format('woff'),
-    url('/fonts/icomoon.svg?plwv0n#icomoon') format('svg');
+    src:url('library/fonts/icomoon.eot?9yfu6m');
+    src:url('library/fonts/icomoon.eot?9yfu6m#iefix') format('embedded-opentype'),
+        url('library/fonts/icomoon.ttf?9yfu6m') format('truetype'),
+        url('library/fonts/icomoon.woff?9yfu6m') format('woff'),
+        url('library/fonts/icomoon.svg?9yfu6m#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: none;
     font-style: normal;
@@ -18,72 +17,30 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pause:before {
+.icon-arrow-right:before {
+    content: "\e900";
+}
+
+.icon-twitter:before {
     content: "\e901";
 }
-.icon-delete:before {
+
+.icon-linkedin:before {
     content: "\e902";
 }
-.icon-play:before {
-    content: "\e905";
-}
-.icon-home:before {
+
+.icon-github:before {
     content: "\e903";
 }
-.icon-settings:before {
+
+.icon-instagram:before {
     content: "\e904";
 }
-.icon-gallery:before {
-    content: "\e93c";
-}
-.icon-audio:before {
-    content: "\e94e";
-}
-.icon-video:before {
-    content: "\e960";
-}
-.icon-text:before {
-    content: "\e9ad";
-}
-.icon-gig:before {
-    content: "\ea62";
-}
-.icon-release:before {
-    content: "\ea8e";
-}
-.icon-more:before {
-    content: "\ec6a";
-}
-.icon-link:before {
-    content: "\ec9b";
-}
-.icon-tick:before {
-    content: "\ed71";
-}
-.icon-up:before {
-    content: "\edba";
-}
-.icon-down:before {
-    content: "\edc2";
-}
-.icon-bold:before {
-    content: "\ee9d";
-}
-.icon-underline:before {
-    content: "\ee9e";
-}
-.icon-italic:before {
-    content: "\ee9f";
-}
-.icon-forwarder:before {
-    content: "\eec9";
-}
-.icon-news:before {
-    content: "\e900";
+
+.icon-medium:before {
+    content: "\e905";
 }

@@ -3,11 +3,11 @@
         <footer class="footer">
             <div class="layout-wide cf">
                 <ul class="footer-social cf">
-                    <li><a class="twitter" href="https://twitter.com/JackBarham" target="_blank" title="Jack Barham on Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a class="github" href="https://github.com/jackbarham" target="_blank" title="Jack Barham on GitHub"><i class="fa fa-github"></i></a></li>
-                    <li><a class="github" href="https://medium.com/@jackbarham" target="_blank" title="Jack Barham on Medium"><i class="fa fa-medium"></i></a></li>
-                    <li><a class="linkedin" href="http://www.linkedin.com/pub/jack-barham/13/265/ba5" target="_blank" title="Jack Barham on LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a class="instagram" href="http://instagram.com/jackbarham" target="_blank" title="Jack Barham on Instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><a class="twitter" href="https://twitter.com/JackBarham" target="_blank" title="Jack Barham on Twitter"><i class="icon-twitter"></i></a></li>
+                    <li><a class="github" href="https://github.com/jackbarham" target="_blank" title="Jack Barham on GitHub"><i class="icon-github"></i></a></li>
+                    <li><a class="linkedin" href="http://www.linkedin.com/pub/jack-barham/13/265/ba5" target="_blank" title="Jack Barham on LinkedIn"><i class="icon-linkedin"></i></a></li>
+                    <li><a class="instagram" href="http://instagram.com/jackbarham" target="_blank" title="Jack Barham on Instagram"><i class="icon-instagram"></i></a></li>
+                    <li><a class="medium" href="https://medium.com/@jackbarham" target="_blank" title="Jack Barham on Medium"><i class="icon-medium"></i></a></li>
                 </ul>
                 <ul class="footer-legal">
                     <li class="footer-twitter">
