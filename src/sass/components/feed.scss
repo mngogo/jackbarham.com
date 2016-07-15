@@ -37,6 +37,18 @@ h2.feed-title {
         }
         a {
             color: $color-light;
+            position: relative;
+            &:hover, &:hover i {
+                color: $color-anchor;
+            }
+            i {
+                position: absolute;
+                right: -18px;
+                top: 1px;
+                @include font-size(12);
+                color: lighten($color-light, 5);
+                transition: color $transition;
+            }
         }
     }
 }
