@@ -2,6 +2,7 @@
 
     // Load in Custom Post Types
     require_once('functions/cpt-activity.php');
+    require_once('functions/cpt-portfolio.php');
 
     // Theme support
     if (function_exists('add_theme_support'))
@@ -57,7 +58,7 @@
 
     // Remove admin menu (Posts)
     // http://www.wprecipes.com/how-to-remove-menus-in-wordpress-dashboard
-    function remove_menus ()
+    function remove_menus()
     {
         global $menu;
         $restricted = array(__('Posts'));
@@ -83,6 +84,5 @@
         return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read the full article...</a>';
     }
     add_filter('excerpt_more', 'new_excerpt_more');
-
 
 ?>

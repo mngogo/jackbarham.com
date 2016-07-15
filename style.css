@@ -491,12 +491,12 @@ html {
   position: relative; }
 
 .layout-content {
-  padding-top: 4rem;
+  padding-top: 2.5rem;
   padding-bottom: calc(2rem + 100px); }
 
 .layout-wide {
-  max-width: 1280px;
-  padding: 0 40px;
+  max-width: 1180px;
+  padding: 0 20px;
   margin: 0 auto; }
 
 .layout-copy {
@@ -622,7 +622,7 @@ h2.feed-title {
     .footer-social li:first-child {
       margin-left: 0; }
     .footer-social li a i {
-      color: #d8d8d7;
+      color: #cdcdcd;
       transition: 0.15s linear; }
     .footer-social li a.twitter:hover i {
       color: #00b6f1; }
@@ -664,13 +664,12 @@ h2.feed-title {
     padding: 0 0 1px 1px; }
 
 .header {
-  height: 72px;
-  line-height: 72px;
-  border-bottom: 1px solid #F1F1F1; }
+  height: 90px;
+  line-height: 90px; }
 
 .header-logo {
   float: left;
-  line-height: 72px; }
+  line-height: 90px; }
   .header-logo a {
     color: #191919; }
     .header-logo a:hover {

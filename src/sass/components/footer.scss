@@ -21,7 +21,7 @@ $icon-height: 52px;
         }
         a {
             i {
-                color: lighten($color-light, 16);
+                color: lighten($color-light, 12);
                 @include transition ($transition);
             }
             &.twitter:hover i {
