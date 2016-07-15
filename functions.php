@@ -2,9 +2,6 @@
 
     // Load in Custom Post Types
     require_once('functions/cpt-activity.php');
-    require_once('functions/cpt-articles.php');
-    require_once('functions/cpt-playground.php');
-    require_once('functions/cpt-portfolio.php');
 
     // Theme support
     if (function_exists('add_theme_support'))
