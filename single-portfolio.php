@@ -16,7 +16,6 @@
                     <li><span>Role:</span> <?php the_field('portfolio_role'); ?></li>
                     <li><span>Published:</span> <?php the_field('portfolio_published'); ?></li>
                 </ul>
-                <?php get_template_part('loop', 'control'); ?>
             </div>
 
             <div class="portfolio-showcase">
@@ -25,7 +24,6 @@
                         <li><img src="<?php the_sub_field('portfolio_image'); ?>" alt="<?php the_title(); ?>"></li>
                     <?php endwhile; ?>
                 </ul>
-                <?php get_template_part('loop', 'control'); ?>
             </div>
 
             <?php endwhile; endif; ?>

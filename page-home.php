@@ -28,18 +28,17 @@
                     </span>
                     </a>
                 </li>
-
             <?php endforeach; ?>
         </ul>
         <?php wp_reset_postdata(); endif; ?>
 
-    </section><!-- featured -->
+    </section>
 
     <section class="layout-section layout-copy">
 
         <header class="layout-header">
             <h2>Activity feed</h2>
-        </header><!-- sectionHeader -->
+        </header>
 
         <?php $pageID = get_the_ID(); $loop = new WP_Query( array( 'post_type' => 'activity', 'posts_per_page' => 5 ) ); ?>
         <?php while ($loop->have_posts() ) : $loop->the_post(); ?>
