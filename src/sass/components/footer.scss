@@ -16,6 +16,8 @@ $icon-height: 52px;
         float: left;
         margin-left: 1.5rem;
         @include font-size(33);
+        height: $footer-height;
+        line-height: 104px;
         &:first-child {
             margin-left: 0;
         }

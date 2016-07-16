@@ -635,7 +635,9 @@ p.feed-excerpt {
     float: left;
     margin-left: 1.5rem;
     font-size: 33px;
-    font-size: 2.0625rem; }
+    font-size: 2.0625rem;
+    height: 100px;
+    line-height: 104px; }
     .footer-social li:first-child {
       margin-left: 0; }
     .footer-social li a i {
