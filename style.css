@@ -589,6 +589,9 @@ h2.feed-title {
   font-size: 1.6875rem;
   letter-spacing: 0.4px; }
 
+p.feed-excerpt {
+  margin-bottom: 0.75rem; }
+
 .feed-meta {
   font-size: 16px;
   font-size: 1rem;
@@ -742,9 +745,12 @@ h2.feed-title {
   margin-bottom: 2rem; }
 
 .title-medium {
-  font-size: 27px;
-  font-size: 1.6875rem;
-  margin-bottom: 0.5rem; }
+  font-size: 25px;
+  font-size: 1.5625rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.6px; }
+  .title-medium.title-medium--clean {
+    margin-bottom: 0; }
 
 .title-medium a {
   color: #191919; }

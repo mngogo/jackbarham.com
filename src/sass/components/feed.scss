@@ -20,6 +20,10 @@ h2.feed-title {
     letter-spacing: 0.4px;
 }
 
+p.feed-excerpt {
+    margin-bottom: 0.75rem;
+}
+
 .feed-meta {
     @include font-size(16);
     color: $color-light;
