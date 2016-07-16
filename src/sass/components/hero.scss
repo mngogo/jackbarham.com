@@ -8,3 +8,11 @@
     text-align: center;
     line-height: 1.3;
 }
+
+@media (max-width: 440px) {
+
+    .hero-title {
+        @include font-size(26);
+    }
+
+}

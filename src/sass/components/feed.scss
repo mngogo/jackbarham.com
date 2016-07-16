@@ -44,3 +44,22 @@ p.feed-excerpt {
         }
     }
 }
+
+@media (max-width: 440px) {
+
+    .feed-meta {
+        @include font-size(13);
+        li {
+            float: left;
+            margin-right: 7px;
+            padding-right: 7px;
+            line-height: 15px;
+            letter-spacing: 0;
+            a i {
+                right: -14px;
+                @include font-size(10);
+            }
+        }
+    }
+
+}

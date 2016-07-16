@@ -6,7 +6,6 @@
     float: left;
     margin-left: 3rem;
     letter-spacing: 1px;
-    //@include font-bold();
     @include font-size(17);
     &:first-child {
         margin-left: 0;
@@ -17,4 +16,24 @@
             color: $color-anchor;
         }
     }
+}
+
+@media (max-width: 440px) {
+
+    .nav {
+        float: none;
+    }
+
+    .nav-list {
+        text-align: center;
+        li {
+            float: none;
+            display: inline-block;
+            margin-left: 0;
+            &:nth-child(2n) {
+                margin: 0 1.75rem;
+            }
+        }
+    }
+
 }

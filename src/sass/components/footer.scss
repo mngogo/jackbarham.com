@@ -62,3 +62,44 @@ $icon-height: 52px;
     letter-spacing: 0.5px;
     @include font-size(12);
 }
+
+@media (max-width: 440px) {
+
+    .footer {
+        bottom: 0;
+        width: 100%;
+        position: inherit;
+        height: inherit;
+        line-height: inherit;
+        padding: 1.5rem 0;
+        li:first-child {
+            margin-left: 0;
+        }
+        li:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .footer-social {
+        float: none;
+        text-align: center;
+        margin-bottom: 1rem;
+        li {
+            float: none;
+            @include font-size(33);
+            height: inherit;
+            line-height: 1;
+            display: inline-block;
+            margin: 0 0.5rem;
+        }
+    }
+
+    .footer-legal {
+        float: none;
+        text-align: center;
+        top: inherit;
+        position: inherit;
+        transform: inherit;
+    }
+
+}
