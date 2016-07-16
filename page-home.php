@@ -13,13 +13,12 @@
             <h2>Featured work</h2>
         </header>
 
-        <?php $posts = get_field('featured_items'); $count = "featured0"; if ($posts): ?>
-        <ul class="grid-3 cf">
-            <?php foreach($posts as $post): $count++ ?>
-                <?php setup_postdata($post); ?>
-                <li class="<?php echo $count; ?> block-item">
-                    <a href="<?php the_permalink(); ?>" class="fade touchHover">
-                        <img src="<?php the_field('portfolio_thumbnail'); ?>" alt="<?php the_title(); ?>" class="pImg fade">
+        <?php $posts = get_field('featured_items'); ?>
+        <ul class="grid-3 block-preview cf">
+            <?php foreach($posts as $post): ?>
+                <li class="block-item">
+                    <a href="<?php the_permalink(); ?>">
+                        <img src="<?php the_field('portfolio_thumbnail'); ?>" alt="<?php the_title(); ?>">
                     <span class="block-background">
                         <span class="block-info">
                             <h1><?php the_title(); ?></h1>
@@ -30,7 +29,7 @@
                 </li>
             <?php endforeach; ?>
         </ul>
-        <?php wp_reset_postdata(); endif; ?>
+        <?php wp_reset_postdata(); ?>
 
     </section>
 
@@ -40,8 +39,8 @@
             <h2>Activity feed</h2>
         </header>
 
-        <?php $pageID = get_the_ID(); $loop = new WP_Query( array( 'post_type' => 'activity', 'posts_per_page' => 5 ) ); ?>
-        <?php while ($loop->have_posts() ) : $loop->the_post(); ?>
+        <?php $pageID = get_the_ID(); $loop = new WP_Query( array('post_type' => 'activity', 'posts_per_page' => 5)); ?>
+        <?php while ($loop->have_posts()) : $loop->the_post(); ?>
             <?php get_template_part('loop', 'activity'); ?>
         <?php endwhile; wp_reset_postdata(); ?>
 

@@ -526,6 +526,9 @@ html {
     text-transform: uppercase;
     letter-spacing: 3px; }
 
+.block-preview li:last-child {
+  display: none; }
+
 .block-item a {
   display: block;
   position: relative; }
