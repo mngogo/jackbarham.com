@@ -2,19 +2,6 @@
     margin-bottom: 3rem;
 }
 
-.feed-title {
-    margin-bottom: 1rem;
-    line-height: 1.3;
-    a {
-        color: $color-header;
-    }
-}
-
-h1.feed-title {
-    @include font-size(33);
-    letter-spacing: 0.7px;
-}
-
 h2.feed-title {
     @include font-size(27);
     letter-spacing: 0.4px;
@@ -34,6 +21,7 @@ p.feed-excerpt {
         padding-right: 13px;
         line-height: 15px;
         list-style-type: none;
+        letter-spacing: 0.3px;
         &:last-child {
             margin-right: 0;
             border-right: none;

@@ -7,7 +7,7 @@
             <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
             <div class="portfolio-copy">
-                <h1 class="feed-title"><?php the_title(); ?></h1>
+                <h1 class="portfolio-title"><?php the_title(); ?></h1>
                 <div class="portfolio-description">
                     <?php the_field('portfolio_description'); ?>
                 </div>

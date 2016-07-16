@@ -9,7 +9,7 @@
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <?php while (has_sub_field('about_content')): ?>
             <section class="feed-item">
-                <h2 class="feed-title"><?php the_sub_field('about_section_title'); ?></h2>
+                <h2 class="title-medium"><?php the_sub_field('about_section_title'); ?></h2>
                 <?php the_sub_field('about_section_text'); ?>
             </section><!-- aboutSection -->
             <?php endwhile; ?>

@@ -7,13 +7,19 @@
     margin-bottom: 1rem;
 }
 
+h1.portfolio-title {
+    @include font-size(39);
+    letter-spacing: 0.7px;
+    line-height: 1;
+    margin-bottom: 2rem;
+    a {
+        color: $color-header;
+    }
+}
+
 .portfolio-copy {
     float: right;
     width: 41.666666666667%;
-}
-
-.portfolio-title {
-    margin-bottom: 2rem;
 }
 
 .portfolio-meta {

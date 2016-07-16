@@ -33,7 +33,10 @@ html {
 }
 
 .layout-section {
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
+    &:last-child {
+        margin-bottom: 2.5rem;
+    }
 }
 
 .layout-header {
@@ -43,11 +46,11 @@ html {
     text-align: center;
     height: 46px;
         h2 {
-            font-size: 16px;
-            color: $color-light;
+            @include font-size(15);
+            color: lighten($color-light, 5);
             font-weight: normal;
             margin: 0;
-            padding: 0 25px 0 28px;
+            padding: 0 15px 0 20px;
             top: -14px;
             position: relative;
             background: white;
