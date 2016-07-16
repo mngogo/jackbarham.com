@@ -529,9 +529,11 @@ html {
     text-transform: uppercase;
     letter-spacing: 3px; }
 
-@media (max-width: 440px) {
+@media (max-width: 690px) {
   .layout-content {
-    padding-bottom: 0; }
+    padding-bottom: 0; } }
+
+@media (max-width: 440px) {
   .layout-section {
     margin-bottom: 3rem; }
     .layout-section:last-child {
@@ -700,7 +702,7 @@ p.feed-excerpt {
   font-size: 12px;
   font-size: 0.75rem; }
 
-@media (max-width: 440px) {
+@media (max-width: 690px) {
   .footer {
     bottom: 0;
     width: 100%;
