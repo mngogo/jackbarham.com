@@ -45,7 +45,7 @@ p.feed-excerpt {
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: $breakpoint-mobile) {
 
     .feed-meta {
         @include font-size(13);

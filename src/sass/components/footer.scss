@@ -63,7 +63,7 @@ $icon-height: 52px;
     @include font-size(12);
 }
 
-@media (max-width: 440px) {
+@media (max-width: $breakpoint-mobile) {
 
     .footer {
         bottom: 0;

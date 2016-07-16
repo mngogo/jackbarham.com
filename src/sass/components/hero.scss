@@ -9,6 +9,22 @@
     line-height: 1.3;
 }
 
+@media (max-width: 730px) {
+
+    .hero-title {
+        @include font-size(47);
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .hero-title {
+        @include font-size(37);
+    }
+
+}
+
 @media (max-width: 440px) {
 
     .hero-title {

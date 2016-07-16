@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: $breakpoint-mobile) {
 
     .grid-3 {
         position: relative;

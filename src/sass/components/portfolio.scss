@@ -36,7 +36,7 @@ h1.portfolio-title {
     margin-bottom: 2rem;
 }
 
-@media (max-width: 440px) {
+@media (max-width: $breakpoint-mobile) {
 
     .portfolio-showcase,
     .portfolio-copy {
