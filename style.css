@@ -569,6 +569,14 @@ html {
   padding: 0 1rem;
   color: #313131; }
 
+@media (max-width: 880px) {
+  .block-preview li:last-child {
+    display: block; } }
+
+@media (max-width: 520px) {
+  .block-preview li:last-child {
+    display: none; } }
+
 a.button {
   padding: 0 50px 0 30px;
   background: #6090C1;
@@ -733,14 +741,24 @@ p.feed-excerpt {
     width: 33.33333333333333%;
     padding: 0 0 1px 1px; }
 
-@media (max-width: 440px) {
+@media (max-width: 880px) {
+  .grid-3 {
+    position: relative;
+    width: calc(100% + 2px);
+    left: -3px; }
+    .grid-3 li {
+      float: left;
+      overflow: hidden;
+      width: 50%;
+      padding: 0 0 1px 1px; } }
+
+@media (max-width: 520px) {
   .grid-3 {
     position: relative;
     width: 100%;
     left: 0; }
     .grid-3 li {
       float: none;
-      overflow: hidden;
       width: 100%;
       padding: 0 0 1px 0; } }
 

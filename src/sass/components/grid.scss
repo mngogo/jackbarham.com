@@ -10,7 +10,24 @@
     }
 }
 
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: 880px) {
+
+    .grid-3 {
+        position: relative;
+        width: calc(100% + 2px);
+        left: -3px;
+        li {
+            float: left;
+            overflow: hidden;
+            width: 50%;
+            padding: 0 0 1px 1px;
+        }
+    }
+
+}
+
+
+@media (max-width: 520px) {
 
     .grid-3 {
         position: relative;
@@ -18,7 +35,6 @@
         left: 0;
         li {
             float: none;
-            overflow: hidden;
             width: 100%;
             padding: 0 0 1px 0;
         }

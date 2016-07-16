@@ -3,7 +3,6 @@
 }
 
 .block-item {
-    //position: relative;
     a {
         display: block;
         position: relative;
@@ -30,4 +29,21 @@
     width: 100%;
     padding: 0 1rem;
     color: $color-text;
+}
+
+@media (max-width: 880px) {
+
+    .block-preview li:last-child {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 520px) {
+
+    .block-preview li:last-child {
+        display: none;
+    }
+
 }
