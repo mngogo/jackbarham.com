@@ -13,14 +13,15 @@
                     <li class="footer-twitter">
                         <a href="https://twitter.com/JackBarham" class="twitter-follow-button" data-show-count="true">Follow @JackBarham</a>
                     </li>
-                    <li class="footer-copyright">Copyright &copy; 2010 - <?php echo date('Y'); ?> Airbox Media Ltd</li>
-                    <li class="footer-copyright">Registered in England &amp; Wales. Company Reg No. 07597522</li>
+                    <li class="footer-copyright"><?php the_field('legal_line_1', 'option'); ?></li>
+                    <li class="footer-copyright"><?php the_field('legal_line_2', 'option'); ?></li>
                 </ul>
             </div>
         </footer>
 
     </div><!-- layout-wrapper -->
 
+    <?php the_field('google_analytics_code', 'option'); ?>
     <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
     </script>
