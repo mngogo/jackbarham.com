@@ -5,7 +5,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title><?php wp_title('-', true, 'right'); ?>Jack Barham UPDATED</title>
+    <title><?php wp_title('-', true, 'right'); ?>Jack Barham</title>
 
     <meta name="author" content="Jack Barham - http://www.jackbarham.com">
     <meta name="HandheldFriendly" content="True">
