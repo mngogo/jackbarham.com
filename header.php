@@ -15,9 +15,6 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
-    <script src="//use.typekit.net/nmd7zax.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-
     <?php wp_head(); ?>
 
 </head>
