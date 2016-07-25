@@ -58,3 +58,14 @@ register_taxonomy( 'custom_portfolio',
         'query_var' => true,
     )
 );
+
+global $wp_rewrite;
+$wp_rewrite->flush_rules();
+
+// Helpful hack to paginate CPTs
+// http://wordpress.stackexchange.com/questions/176723/creating-a-simple-pagination-for-custom-post-type-templates
+add_action('pre_get_posts', function ($q) {
+    if (!is_admin() && $q->is_main_query() && $q->is_post_type_archive('portfolio')) {
+        $q->set('posts_per_page', -1);
+    }
+});

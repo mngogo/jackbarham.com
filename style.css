@@ -844,6 +844,32 @@ p.feed-excerpt {
       .nav-list li:nth-child(2n) {
         margin: 0 2rem; } }
 
+.pagination {
+  background: lime;
+  text-align: center;
+  position: relative;
+  height: 23px; }
+  .pagination a {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 29px;
+    line-height: 27px;
+    color: #ccc; }
+    .pagination a:first-child {
+      margin-right: 50px; }
+
+.pagination-desktop {
+  display: block; }
+
+.pagination-mobile {
+  display: none; }
+
+@media (max-width: 800px) {
+  .pagination-desktop {
+    display: none; }
+  .pagination-mobile {
+    display: block; } }
+
 .portfolio {
   max-width: 100%; }
 
