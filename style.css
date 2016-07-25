@@ -393,12 +393,6 @@ p {
     transition: all 0.13s ease;
     border-bottom: 1px solid #5597d8; }
 
-@media (max-width: 580px) {
-  body, input, select, textarea, button {
-    font-size: 17px;
-    font-size: 1.0625rem;
-    line-height: 1.5; } }
-
 @font-face {
   font-family: 'icomoon';
   src: url("library/fonts/icomoon.eot?9yfu6m");
