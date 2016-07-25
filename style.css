@@ -850,6 +850,9 @@ p.feed-excerpt {
       .nav-list li:nth-child(2n) {
         margin: 0 2rem; } }
 
+.portfolio {
+  max-width: 100%; }
+
 .portfolio-showcase {
   float: left;
   width: 54.166666666667%; }
@@ -882,11 +885,16 @@ h1.portfolio-title {
 .portfolio-description {
   margin-bottom: 2rem; }
 
-@media (max-width: 440px) {
+@media (max-width: 800px) {
+  .portfolio {
+    max-width: 640px;
+    margin: 0 auto; }
   .portfolio-showcase,
   .portfolio-copy {
     float: none;
-    width: 100%; }
+    width: 100%; } }
+
+@media (max-width: 440px) {
   h1.portfolio-title {
     font-size: 27px;
     font-size: 1.6875rem;

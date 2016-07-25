@@ -1,3 +1,7 @@
+.portfolio {
+    max-width: 100%;
+}
+
 .portfolio-showcase {
     float: left;
     width: 54.166666666667%;
@@ -36,7 +40,12 @@ h1.portfolio-title {
     margin-bottom: 2rem;
 }
 
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: 800px) {
+
+    .portfolio {
+        max-width: 640px;
+        margin: 0 auto;
+    }
 
     .portfolio-showcase,
     .portfolio-copy {
@@ -44,10 +53,13 @@ h1.portfolio-title {
         width: 100%;
     }
 
+}
+
+@media (max-width: $breakpoint-mobile) {
+
     h1.portfolio-title {
         @include font-size(27);
         margin-bottom: 1rem;
     }
-
 
 }
