@@ -10,7 +10,7 @@ To get the exact same functionality you need to install [Advance Custom Fields](
 
 1. [Download](https://wordpress.org/latest.zip), install and setup WordPress
 2. Install [Advance Custom Fields](https://www.advancedcustomfields.com) with Pro or Add-ons plugin
-3. [Download](https://github.com/jackbarham/jackbarham.com/archive/master.zip) or clone this into your theme directory (don't change the folder name)
+3. [Download](https://github.com/jackbarham/jackbarham.com/archive/master.zip) or clone this repo into your theme directory (don't change the folder name)
 4. Set table prefix to `wxp_` in `config.php`
 5. Import `sql/jackbarham-schema.sql` into your MySQL database
 
