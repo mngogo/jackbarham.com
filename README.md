@@ -1,5 +1,5 @@
 # Custom WordPress theme 
-##### Preview [www.jackbarham.com](https://www.jackbarham.com)
+#### Preview [www.jackbarham.com](https://www.jackbarham.com)
 
 ### Dependencies
 - Laravel Elixir for compiling assets in Gulp
