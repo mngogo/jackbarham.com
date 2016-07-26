@@ -25,4 +25,4 @@ The theme should be ready to use without any build process.
 This theme doesn't use any Javascript, yet. Further build docs are available on the [Elixir website](https://laravel.com/docs/master/elixir).
 
 ### Note
-The font used is [FF Meta Serif Pro](https://typekit.com/fonts/ff-meta-serif-web-pro) and requires a free [Adobe Typekit](https://typekit.com/plans) account. I've haven't created a fallback option so you're likely to see Times New Roman until you set your font preferences.
+The font used is [FF Meta Serif Pro](https://typekit.com/fonts/ff-meta-serif-web-pro) and requires a free [Adobe Typekit](https://typekit.com/plans) account. I've haven't created a fallback option so you're likely to see Times New Roman until you set your own font preferences.
