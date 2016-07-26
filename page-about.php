@@ -11,9 +11,9 @@
             <section class="feed-item">
                 <h2 class="title-medium"><?php the_sub_field('about_section_title'); ?></h2>
                 <?php the_sub_field('about_section_text'); ?>
-            </section><!-- aboutSection -->
+            </section>
             <?php endwhile; ?>
-        </article><!-- blogFeed -->
+        </article>
         <?php endwhile; endif; ?>
 
     </section>

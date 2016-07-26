@@ -2,13 +2,11 @@
     display: none;
 }
 
-.block-item {
-    a {
-        display: block;
-        position: relative;
-        &:hover .block-background {
-            opacity: 1;
-        }
+.block-item a {
+    display: block;
+    position: relative;
+    &:hover .block-background {
+        opacity: 1;
     }
 }
 

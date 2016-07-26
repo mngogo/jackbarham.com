@@ -1,6 +1,6 @@
 <?php
     /* Template Name: Portfolio */
-	get_header();
+    get_header();
 ?>
 
     <section class="layout-section layout-wide">
@@ -12,6 +12,6 @@
             <?php endwhile; wp_reset_postdata(); ?>
         </ul>
 
-    </section><!-- contentWrap -->
+    </section>
 
 <?php get_footer(); ?>

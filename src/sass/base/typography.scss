@@ -40,9 +40,9 @@ p {
     }
     a {
         padding-bottom: 2px;
-    }
-    a:hover {
-        transition: all $transition;
-        border-bottom: 1px solid lighten($color-anchor, 12);
+        &:hover {
+            transition: all $transition;
+            border-bottom: 1px solid lighten($color-anchor, 12);
+        }
     }
 }
