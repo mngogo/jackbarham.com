@@ -1,5 +1,5 @@
 # Custom WordPress theme 
-#### Preview [www.jackbarham.com](https://www.jackbarham.com)
+- Preview [www.jackbarham.com](https://www.jackbarham.com)
 
 ### Dependencies
 - Laravel Elixir for compiling assets in Gulp
@@ -21,8 +21,8 @@ The theme should be ready to use without any build process.
 - Install node packages `npm install` 
 - Compile SASS to CSS `gulp` or `gulp watch`. 
 - To minify run `gulp --production`. 
-- This theme doesn't use any Javascript, yet. 
-- Further buold docs are available on the [Elixir website](https://laravel.com/docs/master/elixir).
+
+This theme doesn't use any Javascript, yet. Further build docs are available on the [Elixir website](https://laravel.com/docs/master/elixir).
 
 ### Note
-The font used is [FF Meta Serif Pro](https://typekit.com/fonts/ff-meta-serif-web-pro) and requires and Adobe Typekit subscription. I've haven't created a fallback option so you're likely to see Times New Roman until you set your font preference.
+The font used is [FF Meta Serif Pro](https://typekit.com/fonts/ff-meta-serif-web-pro) and requires a free [Adobe Typekit](https://typekit.com/plans) account. I've haven't created a fallback option so you're likely to see Times New Roman until you set your font preference.
