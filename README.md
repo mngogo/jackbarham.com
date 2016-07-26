@@ -1,4 +1,4 @@
-### Custom WordPress theme for [www.jackbarham.com](https://www.jackbarham.com)
+## Custom WordPress theme for [www.jackbarham.com](https://www.jackbarham.com)
 
 ### Dependencies
 - Laravel Elixir for compiling assets in Gulp
@@ -13,6 +13,7 @@ To get the exact same functionality you need to install [Advance Custom Fields](
 4. Set table prefix to `wxp_` in `config.php`
 5. Import `sql/jackbarham-schema.sql` into your MySQL database
 
-Build
+### Build
 Once setup the theme should be ready to use. 
+
 To compile `.scss` in terminal `cd src` run `npm install` then `gulp` or `gulp watch`. To minify run `gulp --production`. This theme doesn't use any Javascript, yet. All docs are available on the [Elixir website](https://laravel.com/docs/master/elixir).
