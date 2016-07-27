@@ -4,7 +4,7 @@
 ?>
 
     <section class="layout-section">
-        <h1 class="hero-title">Digitial product <br/>designer &amp; developer</h1>
+        <h1 class="hero-title">Digital product <br/>designer &amp; developer</h1>
     </section>
 
     <section class="layout-section layout-wide">
